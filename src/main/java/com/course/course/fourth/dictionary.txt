@@ -1,8 +1,0 @@
-apple | яблоко
-banana | банан
-car | автомобиль
-dog | собака
-cat | кошка
-red | красный
-green | зеленый
-yellow lemon | жёлтый лимон
