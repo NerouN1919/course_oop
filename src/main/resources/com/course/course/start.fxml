@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.course.course.StartController">
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10"/>
+    </padding>
+    <Text text="Выберите программу"/>
+    <Button text="Первая программа" onAction="#toFirstProgram"/>
+    <Button text="Вторая программа" onAction="#toSecondProgram"/>
+    <Button text="Третья программа" onAction="#toThirdProgram"/>
+    <Button text="Четвёртая программа" onAction="#toFourthProgram"/>
+    <Button text="Пятая программа" onAction="#toFifthProgram"/>
+    <Button text="Шестая программа" onAction="#toSixthProgram"/>
+    <stylesheets>
+        <URL value="@start.css"/>
+    </stylesheets>
+</VBox>

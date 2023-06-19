@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.course.course.FirstController">
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10"/>
+    </padding>
+    <Button text="Назад" onAction="#toStart" styleClass="button"/>
+    <TextArea fx:id="outputArea" editable="false" wrapText="true" prefWidth="300" prefHeight="200"/>
+    <Button text="Выбрать летающего героя" onAction="#setFlyHero" styleClass="button"/>
+    <Button text="Выбрать ездящего героя" onAction="#setRideHero" styleClass="button"/>
+    <Button text="Выбрать плавающего героя" onAction="#setSwimHero" styleClass="button"/>
+    <Button text="Выбрать гуляющего героя" onAction="#setWalkHero" styleClass="button"/>
+    <Text text="Тип героя: " styleClass="text"/>
+    <TextField fx:id="heroType" styleClass="text-field" editable="false"/>
+    <Button text="Запустить героя" onAction="#showCodeExecution" styleClass="button"/>
+    <stylesheets>
+        <URL value="@first.css"/>
+    </stylesheets>
+</VBox>

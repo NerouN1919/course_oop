@@ -1,0 +1,26 @@
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 100px;
+}
+
+#startButton {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 50px;
+}
+
+#output {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 200px;
+    -fx-font-size: 14px;
+}
+
+.background-vbox {
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}

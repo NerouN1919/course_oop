@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.course.course.FifthController">
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10"/>
+    </padding>
+    <Button text="Назад" onAction="#toStart" styleClass="button"/>
+    <Label text="Операции с числами" style="-fx-font-weight: bold;"/>
+    <HBox spacing="10">
+        <Label text="Ввод (разделение запятой):"/>
+        <TextField fx:id="numberInput" minWidth="200"/>
+    </HBox>
+    <FlowPane hgap="10" vgap="5">
+        <Button text="Среднее значение" onAction="#calculateAverage"/>
+        <Button text="Уникальные квадраты" onAction="#getUniqueSquares"/>
+        <Button text="Сумма четных чисел" onAction="#sumOfEvenNumbers"/>
+    </FlowPane>
+    <Label text="Результат:"/>
+    <Label fx:id="numberResult"/>
+
+    <Label text="Операции со строками" style="-fx-font-weight: bold;"/>
+    <HBox spacing="10">
+        <Label text="Ввод (разделение запятой):"/>
+        <TextField fx:id="stringInput" minWidth="200"/>
+    </HBox>
+    <FlowPane hgap="10" vgap="5">
+        <Button text="Верхнний регистр с приставкой" onAction="#toUpperCaseWithPrefix"/>
+        <Button text="Выбрать по букве и отсортировать" onAction="#filterAndSort"/>
+        <Label text="Первая буква: "/>
+        <TextField fx:id="sortByInput"/>
+        <Button text="Последний результат" onAction="#getLastElement"/>
+        <Button text="В словарь" onAction="#toMap"/>
+    </FlowPane>
+    <Label text="Результат:"/>
+    <Label fx:id="stringResult"/>
+    <stylesheets>
+        <URL value="@fifth.css"/>
+    </stylesheets>
+</VBox>

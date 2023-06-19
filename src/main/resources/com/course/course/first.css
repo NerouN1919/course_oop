@@ -1,0 +1,47 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-base: #ffffff;
+}
+
+.button {
+    -fx-background-color: #4a86e8;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #3a76d8;
+}
+
+.button:pressed {
+    -fx-background-color: #2a66c8;
+}
+
+.text {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-fill: #333333;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+}
+
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+}
+
+VBox {
+    -fx-background-color: #f2f2f2;
+}

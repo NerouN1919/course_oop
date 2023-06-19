@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TextArea?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.course.course.SixthController" spacing="10" styleClass="background-vbox"
+      alignment="CENTER">
+    <Button text="Назад" onAction="#toStart" styleClass="button"/>
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <children>
+        <Button fx:id="startButton" text="Start" onAction="#handleStartButtonAction"/>
+        <TextArea fx:id="output" editable="false"/>
+    </children>
+    <stylesheets>
+        <URL value="@sixth.css"/>
+    </stylesheets>
+</VBox>
