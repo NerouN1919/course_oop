@@ -1,0 +1,46 @@
+VBox {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}
+
+Label {
+    -fx-font-weight: bold;
+}
+
+HBox {
+    -fx-spacing: 10;
+}
+
+FlowPane {
+    -fx-hgap: 10;
+    -fx-vgap: 5;
+    -fx-alignment: center-left;
+}
+
+FlowPane > * {
+    -fx-margin: 0 5px;
+}
+
+TextField {
+    -fx-min-width: 200;
+}
+
+Button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+Button:hover {
+    -fx-background-color: #3e8e41;
+}
+
+Label#numberResult, Label#stringResult {
+    -fx-padding: 10px 0;
+}
+
+TextField#sortByInput {
+    -fx-max-width: 50px;
+}

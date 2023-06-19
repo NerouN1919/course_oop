@@ -1,0 +1,27 @@
+.VBox {
+    -fx-background-color: #f2f2f2;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+
+Text {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+Button {
+    -fx-min-width: 200;
+    -fx-min-height: 40;
+    -fx-font-size: 14;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+Button:hover {
+    -fx-background-color: #0056b3;
+}
+
+Button:pressed {
+    -fx-background-color: #003e80;
+}
